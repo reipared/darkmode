@@ -1,1 +1,13 @@
-/*# sourceMappingURL=style.css.map */
+.toggle {
+  position: fixed;
+  top: -75px;
+  left: -75px;
+  width: 150px;
+  height: 150px;
+  border: none;
+  border-radius: 50%;
+  z-index: 498;
+}
+.toggle .toggle-overlay {
+  position: absolute;
+}/*# sourceMappingURL=style.css.map */

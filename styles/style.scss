@@ -1,0 +1,17 @@
+// Day/Night mode toggle
+
+.toggle {
+	position: fixed;
+	top: -75px;
+	left: -75px;
+	width: 150px;
+	height: 150px;
+	border: none;
+	border-radius: 50%;
+	z-index: 498;
+
+	// overlay for onclick event
+	.toggle-overlay {
+		position: absolute;
+	}
+}
